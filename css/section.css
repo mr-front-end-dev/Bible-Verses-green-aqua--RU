@@ -52,3 +52,17 @@
 .section__span--color--white {
   color: hsl(0, 0%, 100%);
 }
+
+.section--border {
+  line-height: 2.0;
+  border: 1px solid hsl(300, 100%, 35%);
+  padding: 5px;
+}
+
+.section--border:hover {
+  border: 1px double hsl(0, 0%, 100%);
+  background-color: hsl(300, 100%, 35%);
+  color: hsl(0, 0%, 100%);
+  cursor: pointer;
+  transition: 1s;
+}
