@@ -66,3 +66,17 @@
   cursor: pointer;
   transition: 1s;
 }
+
+.section--border--aqua {
+  line-height: 2.0;
+  border: 2px solid hsl(180, 100%, 50%);
+  padding: 5px;
+}
+
+.section--border--aqua:hover {
+  border: 1px double hsl(0, 0%, 100%);
+  background-color: hsl(180, 100%, 50%);
+  color: hsl(0, 0%, 100%);
+  cursor: pointer;
+  transition: 1s;
+}
