@@ -53,13 +53,13 @@
   color: hsl(0, 0%, 100%);
 }
 
-.section--border {
+.section--border--purple {
   line-height: 2.0;
   border: 2px solid hsl(300, 100%, 35%);
   padding: 5px;
 }
 
-.section--border:hover {
+.section--border--purple:hover {
   border: 1px double hsl(0, 0%, 100%);
   background-color: hsl(300, 100%, 35%);
   color: hsl(0, 0%, 100%);
